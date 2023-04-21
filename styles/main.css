@@ -12,7 +12,7 @@
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
-    
+
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainLinkColor:var(--mainLinkColor-dark);
@@ -27,11 +27,11 @@
     line-height: 1.5em;
     box-sizing: border-box;
     color: var(--mainTextColor);
-    
+
 }
 
 body{
-    background-color: var(--mainBgColor);            
+    background-color: var(--mainBgColor);
 }
 
 p, span, li{
@@ -143,9 +143,11 @@ li{
 
 .card--work-history{
     border-left: 1px solid var(--mainBorderColor);
+    border-right: 1px solid var(--mainBorderColor);
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
+    padding-right: 2em;
 }
 
 .line-break{
