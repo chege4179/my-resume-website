@@ -183,3 +183,31 @@ li{
         padding-left: 0;
     }
 }
+
+
+input{
+    margin: 0;
+    padding: 10px;
+    border-radius: 4px;
+    color:#2b3031;
+    background-color: var(--mainBgColor);
+}
+
+form {
+    display: flex;
+    flex-direction: column;/* Arrange elements verit */
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+    margin: 1rem auto; /* Add some margin and center horizontally */
+    width: 60%; /* Set a width for the form */
+}
+
+
+button {
+    margin-top: 10px;
+    background-color: #df270e; /* Green color */
+    color: white;
+    padding: 0.7rem 1rem; /* Add some padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Change cursor on hover */
+}
